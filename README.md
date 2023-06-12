@@ -1,6 +1,6 @@
 # car and lincense plate detection project
 
-### description(in persian)
+## description(in persian)
 <div dir="rtl">
 <h4>مقدمه</h4>
 در این پروژه از دو مدل YOLOv5 و YOLO NAS برای تشخیص خودرو و پلاک خودرو در ویدیو است.
@@ -35,5 +35,29 @@ YOLO برای تشخیص، به صورت کلی (Global) به تصویر نگا�
 
 </div>
 
-### installation
+## pretrained weights
+
+If you'd like to experiment or if you prefer not to train the model from scratch for license plate detection, feel free to utilize the pretrained weights provided in "my_weights/last.pt". These weights are obtained from the model training process, and can be used as a starting point for your own license plate detection tasks.
+
+## installation
+
+Installing dependencies for YOLO NAS is a relatively straightforward task. You just need to run the code cells to install the required packages. However, it's a bit different when it comes to YOLOv5. Here's what you need to do to install the dependencies for YOLOv5 to work:
+
+1. Clone the YOLOv5 repository from GitHub:
+```
+!git clone https://github.com/ultralytics/yolov5.git
+```
+2.Navigate to the yolov5 directory:
+```
+%cd yolov5
+```
+3.Install the required dependencies using pip:
+```
+!pip install -r requirements.txt
+```
+This will install all the necessary packages specified in the requirements.txt file.
+Now you should be good to go :)
+
+
+
 
